@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.epam.backend.service.BankService;
+import com.epam.backend.service.ClientNotFoundException;
 import com.epam.ui.transformer.ClientToShowClientModelTransformer;
-import com.epam.ui.transformer.ClientsToListClientsModelTransformer;
 import com.epam.ui.view.ShowClientModel;
 import com.epam.ui.view.UrlConstants;
 
@@ -26,7 +26,7 @@ public class ShowClientController {
 	}
 
 	@ModelAttribute
-	public ShowClientModel showClientModel(Long id) {
+	public ShowClientModel showClientModel(Long id) throws ClientNotFoundException {
 		return transformer.transform(bankService.findClientById(id));
 	}
 

@@ -1,10 +1,9 @@
 package com.epam.backend.domain;
 
-import java.util.Date;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Lob;
 
 @Entity
 public class Client {
@@ -14,6 +13,17 @@ public class Client {
 	private Long id;
 
 	private String name;
+
+	@Lob
+	private byte[] picture;
+
+	public byte[] getPicture() {
+		return picture;
+	}
+
+	public void setPicture(byte[] picture) {
+		this.picture = picture;
+	}
 
 	public Long getId() {
 		return id;

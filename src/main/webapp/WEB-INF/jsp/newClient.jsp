@@ -15,11 +15,12 @@
 	<h1>
 		<spring:message code="newClient" />
 	</h1>
-	<form:form commandName="newClientRequestModel" action="newClientPost">
+	<form:form commandName="newClientRequestModel" action="newClientPost" enctype="multipart/form-data">
 		<div>
 			<label for="name"><spring:message code="name" /></label>
 			<form:input path="name" type="text" id="name" placeholder="Name" />
 			<form:errors path="name" />
+			<input type="file" name="picture" />
 		</div>
 		<button type="submit">
 			<spring:message code="submit" />

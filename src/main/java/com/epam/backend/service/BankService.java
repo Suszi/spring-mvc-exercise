@@ -20,11 +20,11 @@ public class BankService {
 		return clientRepository.findAll();
 	}
 
-	public void saveClient(Client client){
+	public void saveClient(Client client) {
 		clientRepository.save(client);
 	}
 
-	public Client findClientById(Long id) {
+	public Client findClientById(Long id) throws ClientNotFoundException {
 		return clientRepository.findOne(id);
 	}
 }

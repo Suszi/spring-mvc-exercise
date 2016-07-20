@@ -27,7 +27,7 @@ public class NewClientPostController {
 		this.bankService = bankService;
 		this.transformer = transformer;
 	}
-	
+
 	@ModelAttribute
 	public void process(@Valid NewClientRequestModel newClientRequestModel, BindingResult errors) {
 		if (!errors.hasErrors()) {
@@ -37,7 +37,6 @@ public class NewClientPostController {
 
 	@RequestMapping(value = UrlConstants.NEW_CLIENT_POST, method = RequestMethod.POST)
 	public String newClient(@Valid NewClientRequestModel newClientRequestModel, BindingResult errors) {
-		System.out.println("Van hiba? " + (errors.hasErrors() ? "van" : "nincs"));
 		if (errors.hasErrors()) {
 			return "newClient";
 		}

@@ -19,7 +19,7 @@ public class ClientsToListClientsModelTransformer {
 			ClientDto clientDto = new ClientDto(c.getId(), c.getName(), UrlConstants.showClient(c.getId()));
 			clientDtos.add(clientDto);
 		}
-		
+
 		return new ListClientsModel(clientDtos, UrlConstants.NEW_CLIENT);
 	}
 }
