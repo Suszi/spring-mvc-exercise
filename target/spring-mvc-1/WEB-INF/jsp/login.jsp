@@ -2,21 +2,24 @@
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Login</title>
 </head>
 <body>
-	<form role="form" action="<c:url value='/j_spring_security_check'/>" method="post">
+	<form role="form" action="<c:url value='/j_spring_security_check'/>"
+		method="post">
 		<div class="form-group">
-			<label for="j_username"><spring:message code="username" /></label>
-			<input type="text" name="j_username" />
+			<input type="text" name="j_username"
+				placeholder=<spring:message code="username" /> autocomplete="off"
+				required pattern=".{3,16}" />
 		</div>
 		<div class="form-group">
-			<label for="j_password"><spring:message code="password" /></label>
-			<input type="password" name="j_password" />
+			<input type="password" name="j_password"
+				placeholder=<spring:message code="password"/> autocomplete="off"
+				required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" />
 		</div>
 		<button type="submit" class="btn btn-default">
 			<spring:message code="submit" />

@@ -43,7 +43,6 @@
 			</c:forEach>
 		</tbody>
 	</table>
-	<a href="<c:url value='${listClientsModel.newClientUrl}'/>"><spring:message
-			code="createNewClient" /></a>
+	<a href="<c:url value='${listClientsModel.newClientUrl}'/>"><spring:message code="createNewClient" /></a>
 </body>
 </html>

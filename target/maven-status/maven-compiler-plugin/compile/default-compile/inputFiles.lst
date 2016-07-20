@@ -2,14 +2,17 @@ C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\contro
 C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\transformer\ClientsToListClientsModelTransformer.java
 C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\view\ClientDto.java
 C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\transformer\NewClientRequestToClientTransformer.java
+C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\controller\RestClientController.java
 C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\controller\NewClientPostController.java
 C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\transformer\ClientToShowClientModelTransformer.java
 C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\backend\service\BankService.java
 C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\view\UrlConstants.java
+C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\controller\LoginController.java
 C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\backend\service\ClientNotFoundException.java
 C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\view\NewClientRequestModel.java
 C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\view\ListClientsModel.java
 C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\view\ShowClientModel.java
+C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\transformer\ClientToArrayTransformer.java
 C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\controller\NewClientFormController.java
 C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\controller\ShowClientController.java
 C:\Users\Tamas_Schuszter\workspace\spring-mvc-1\src\main\java\com\epam\ui\view\ShowClientRequestModel.java

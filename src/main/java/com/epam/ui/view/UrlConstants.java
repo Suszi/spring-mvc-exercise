@@ -13,6 +13,8 @@ public class UrlConstants {
 
 	public static final String LOGIN = "/login";
 
+	public static final String REST = "/rest";
+
 	public static String showClient(long clientId) {
 		return SHOW_CLIENT + "?id=" + clientId;
 	}
