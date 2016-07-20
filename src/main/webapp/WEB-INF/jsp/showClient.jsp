@@ -27,7 +27,7 @@ th, td {
 			<td>${showClientModel.name}</td>
 		</tr>
 		<tr>
-			<td><img src="<c:url value='${showClientModel.pictureUrl}'/>"/></td>
+			<td><img src="<c:url value='${showClientModel.pictureUrl}'/>" /></td>
 		</tr>
 	</table>
 	<a href="<c:url value='${showClientModel.backUrl}'/>"><spring:message
